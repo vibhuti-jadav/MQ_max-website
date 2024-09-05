@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* --------------container-started------------- */
+.container{
+    max-width: 1320px;
+    margin: auto;
+}
+
+
+.container-full{
+    width: 100%;
+}
+
+/* --------------container-end------------- */
+
+/* -------------flex-started------------ */
+
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justy-cen{
+    display: flex;
+    justify-content: center;
+}
+
+/* -------------flex-end------------ */
+
+/* -------------bg-color-start-------------- */
+
+.bg-color{
+    background-color: rgb(252, 249, 249);
+}
+
+.bg-color-2{
+    background-color: #f8f9fd;
+}
+
+.back-color{
+    background-color: white;
+}
+
+/* -------------bg-color-start-------------- */
+
+
+/* -------margin-started------ */
+.mt-50{
+    margin-top: 50px;
+}
+
+/* -------margin-end------ */
+
+/* ------------------------width----------------------- */
+
+.w{
+    width: 100%;
+}
+
+/* ----------padding------------ */
+
+.p{
+  padding: 20px 20px;
+}
+
+/* ----------padding------------ */
+
+
+
+/* ----------border-started------------- */
+.b-red{
+    border: 1px solid red;
+}
+.b-green{
+    border: 1px solid green;
+}
+
+.b-blue{
+    border: 1px solid blue;
+}
+
+.b-gray{
+    border: 1px solid gray;
+}
+
+.b-orange{
+    border: 1px solid orange;
+}
+.b-black{
+    border: 1px solid black;
+}
+
+/* ----------border-end------------- */
+
+
+/* -------------height-started-------------- */
+
+.h-100{
+    height: 100px;
+}
+.h-200{
+    height: 200px;
+}
+
+.h-300{
+    height: 300px;
+}
+
+.h-400{
+    height: 400px;
+}
+.h-500{
+    height: 500px;
+}
+
+
+
+/* -------------height-ended-------------- */
+
+
+/* --------box-shadow-start----------- */
+
+.shadow{
+    box-shadow: 1px 1px 4px black;
+}
+
+.radius{
+    border-radius: 10px;
+}
+
+
+
+
+/* --------box-shadow-end----------- */
+
+
+/* -------------heading-started---------------- */
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: brown;
+}
+
+
+
+/* -------------heading-end---------------- */
