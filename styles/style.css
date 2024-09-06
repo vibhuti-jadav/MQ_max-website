@@ -17,6 +17,18 @@
 
 /* --------------container-end------------- */
 
+/* -------------------slider-start--------------- */
+.slick-next:before{
+    content: "➡️" !important;
+    color: black !important;
+}
+.slick-prev:before{
+    content: "⬅️" !important;
+    color: black !important;
+}
+
+/* --------------------slider-end---------------------- */
+
 /* -------------flex-started------------ */
 
 .d-flex{
