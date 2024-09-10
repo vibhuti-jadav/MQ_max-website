@@ -12,6 +12,7 @@
 }
 
 
+
 @media(max-width:1399px){
     .w-xl-4{
         width: 25%;
@@ -28,6 +29,7 @@
     .w-xl-1{
         width: 100%;
     }
+  
 }
 @media(max-width:1199px){
     .w-lg-4{
