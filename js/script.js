@@ -1,4 +1,3 @@
-$('.single-item').slick();
 
 $('.center').slick({
     centerMode: true,
@@ -25,5 +24,30 @@ $('.center').slick({
       }
     ]
   });
+
+$('.single-item').slick({
+  centerMode: false,
+  centerPadding: '0px',
+});
+
+  $(".moon").click(function(){
+    $("body").addClass("theme");
+    $(".moon").hide();
+    $(".sun").show()
+    
+})
+
+$(".sun").click(function(){
+    $("body").removeClass("theme")
+    $(".sun").hide();
+    $(".moon").show()
+})
+
+
+$(".btn-nav") .click(function(){
+  $(".links") .slideToggle()
+})
+
+  
   
   
