@@ -1,4 +1,12 @@
 
+$('.single-item').slick({
+  
+  autoplay:true,
+  autoplaySpeed: 2000,
+})
+
+
+
 $('.center').slick({
     centerMode: true,
     centerPadding: '60px',
@@ -25,10 +33,6 @@ $('.center').slick({
     ]
   });
 
-$('.single-item').slick({
-  centerMode: false,
-  centerPadding: '0px',
-});
 
   $(".moon").click(function(){
     $("body").addClass("theme");

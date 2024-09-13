@@ -37,11 +37,7 @@
 }
 
 
-.sli-img img{
-    /* object-fit: cover; */
-    width: 100%;
-    height: 100%;
-}
+
 
 /* --------------------slider-end---------------------- */
 
@@ -137,9 +133,16 @@
 .gap{
     gap: 10%;
 }
+.gap5{
+    gap: 5%;
+}
 /* ----------padding------------ */
 
+/* --------------------inlie-block------------------ */
 
+.inline-block{
+    display: inline-block;
+}
 
 /* ----------------margin-------------------------- */
 .margin-left{
@@ -173,6 +176,10 @@
 }
 .b-black{
     border: 1px solid black;
+}
+
+.b-none{
+    border: none;
 }
 
 
@@ -213,6 +220,9 @@
 .radius{
     border-radius: 10px;
 }
+.radius30{
+    border-radius: 30px;
+}
 .r-circle{
     border-radius: 50%;
 }
@@ -249,15 +259,30 @@ h3{
     font-size: 30px;
 }
 
+h5{
+    font-size: 17px;
+}
+
+.line-height{
+    line-height: 5%;
+}
+
 .color{
     color: #736277;
 }
 .color-white{
     color: white;
 }
+.color-blue{
+    color: #2572da;
+}
+.color-red{
+    color: red;
+}
 
 
 /* -------------heading-end---------------- */
+
 
 
 /* --------------links-li------------------------ */
@@ -362,6 +387,15 @@ input:hover{
 }
 
 
+/* ----------slider------------------ */
+
+.sli-img img{
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+
 /* ---------before-hover-effect------------------ */
 
 /* .contain{
@@ -370,15 +404,15 @@ input:hover{
     margin: auto;
    
 } */
-
-.slick-track{
+  
+#center .slick-track{
 padding: 50px;
 }
-.swipe{
+#center .swipe{
     padding: 10px 30px;
 
 }
-.sub-swipe{
+#center .sub-swipe{
     background-color: white;
     box-shadow: 1px 1px 4px black;
     border-radius: 10px;
@@ -386,32 +420,32 @@ padding: 50px;
     background-size: cover;
 }
 
-.sub-swipe img{
+#center .sub-swipe img{
     object-fit: cover;
     width: 100%;
     height: 100%;
     border-radius: 10px;
 }
 
-.bg-color{
+#center .bg-color{
     background-color: gainsboro;
 }
 
-.slick-next:before{
+/* #center .slick-next:before{
     content: "➡️" !important;
     color: black !important;
 }
-.slick-prev:before{
+#center .slick-prev:before{
     content: "⬅️" !important;
     color: black !important;
-}
+} */
 
-.swipe{
+#center .swipe{
     transition: all 0.4s;
 }
-.slick-center{
+#center .slick-center{
     transform: scale(1.2);
-}
+}   
 
 /* ----------------------theme--------------------------------- */
 .btn > button{
@@ -426,12 +460,12 @@ padding: 50px;
 
 .theme .sub-box{
     box-shadow: rgb(97, 97, 109) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-}
+} 
 
 
+/* ----------------hover-effect------------------------ */
 
-
-.box-lb-img{
+ .box-lb-img{
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -439,14 +473,14 @@ padding: 50px;
     
 }
 
-.box-lb-img img{
+ .box-lb-img img{
     transition: all 0.5s;
 }
 
-.box-lb-img:hover img{
+ .box-lb-img:hover img{
     scale: 1.2;
 }
-.box-lb-img:before{
+ .box-lb-img:before{
     content: "";
     height: 0;
     width: 0; 
@@ -456,12 +490,12 @@ padding: 50px;
     z-index: 10;
     transition: all 0.5s;
     background-color: rgba(0, 0, 0, 0.151);
-    
+   
 }
 
 
 
-.box-lb-img:hover:before{
+ .box-lb-img:hover:before{
     height: 100%;
     width: 100%;
     left: 0%;
@@ -469,6 +503,18 @@ padding: 50px;
    
 }
 
+/* --------------------button------------------ */
+
+.booknow{
+    background-color: #5785c2;
+    color: white;
+}
+
+.booknow:hover{
+    background-color:#2572da;
+    color: white;
+    transition: all 0.5s;
+}
 
 
 
